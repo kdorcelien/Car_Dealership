@@ -13,7 +13,6 @@ public class DealershipFileManager {
                 BufferedReader bufreader = new BufferedReader(
                         new FileReader("src/main/resources/inventory.csv"));
 
-                bufreader.readLine();
                 String[] dealershipInfo = bufreader.readLine().split("\\|");
 
                 String name = dealershipInfo[0];
