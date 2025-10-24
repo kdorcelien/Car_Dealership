@@ -51,6 +51,7 @@ public class DealershipFileManager {
         try {
             BufferedWriter bufwriter = new BufferedWriter(
                     new FileWriter("src/main/resources/inventory.csv", true));
+            ArrayList<Vehicle> vehicles = record.getAllVehicle();
             bufwriter.write(record.toString());
             bufwriter.close();
 
