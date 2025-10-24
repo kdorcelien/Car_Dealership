@@ -18,29 +18,37 @@ public class Dealership {
     public ArrayList<Vehicle> getAllVehicle() {
         return inventory;
     }
-    public ArrayList<Vehicle> getVehicleByPrice(double min, double max){
+
+    public ArrayList<Vehicle> getVehicleByPrice(double min, double max) {
         return null;
     }
-    public ArrayList<Vehicle> getVehicleByMakeModel(String make, String model){
+
+    public ArrayList<Vehicle> getVehicleByMakeModel(String make, String model) {
         return null;
     }
-    public ArrayList<Vehicle> getVehicleByYear(int min, int max){
+
+    public ArrayList<Vehicle> getVehicleByYear(int min, int max) {
         return null;
     }
-    public ArrayList<Vehicle> getVehicleByColor(String color){
+
+    public ArrayList<Vehicle> getVehicleByColor(String color) {
         return null;
     }
-    public ArrayList<Vehicle> getVehicleByMileage(int min, int max){
+
+    public ArrayList<Vehicle> getVehicleByMileage(int min, int max) {
         return null;
     }
-    public ArrayList<Vehicle> getVehicleByType(String vehicleType){
+
+    public ArrayList<Vehicle> getVehicleByType(String vehicleType) {
         return null;
     }
+
     public void addVehicle(Vehicle vehicle) {
         inventory.add(vehicle);
     }
+
     public void removeVehicle(Vehicle vehicle) {
-        inventory.remove(vehicle);
+//        inventory.remove(vehicle);
     }
 
     public String getName() {
